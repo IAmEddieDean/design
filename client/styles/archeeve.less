@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 @font-face {
-	font-family: BonevoCS-Light;
-	src: url('/assets/BonevoCS-Light.otf') format('otf');
+	font-family: BonevoCF-Light-webfont;
+	src: url('/assets/BonvenoCF-Light-webfont.woff');
 }
 #archeeve {
   #coffee {
@@ -28,13 +28,13 @@
     top: 93px;
     z-index:1000;
   }
-  #hero-content {
+  #cof-content {
     position: relative;
     margin: 0 auto;
     width: 66%;
     overflow: hidden;
     //background-color: green;
-    font-family: BonevoCS-Light, Open Sans;
+    font-family: BonevoCF-Light-webfont, Open Sans;
   }
   #head {
     text-align: center;
@@ -45,12 +45,12 @@
   }
   #os {
     margin: auto;
-    width: 481px;
+    width: 528px;
     overflow: hidden;
     position: relative;
     //background-color: green;
     box-sizing: border-box;
-    padding-top: -25px;
+    padding-top: 25px;
   }
  #os > div {
     display: inline-block;
@@ -104,10 +104,14 @@
   }
   #head2 > p {
     margin-top: 0;
-
+    font-family: BonevoCF-Light-webfont;
     color: white;
     padding-top: 100px;
+    padding-bottom: 30px;
     font-size: 30px;
+  }
+  #benefits {
+    font-family: BonevoCF-Light-webfont;
   }
   #gray {
     color: #50555f;
@@ -163,21 +167,24 @@
     max-width: 85%;
   }
   #head3 > p {
-    margin: 0 auto;
-
+    //margin: 0 auto;
     color: white;
     padding-top: 100px;
+    padding-bottom: 30px;
     font-size: 30px;
+    font-family: BonevoCF-Light-webfont;
   }
   #tiles {
-    max-width: 80%
+    max-width: 80%;
+    margin: 0 auto;
   }
   .tiles2 {
     display:inline-block;
     height: auto;
-    max-width: 240px;
-    float: left;
+    max-width: 260px;
+    //float: left;
   }
+
   //end of screenshots
   //start of purchase area
   #buy {
@@ -190,11 +197,13 @@
     overflow: hidden;
     font-family: open Sans;
     color: white;
-    margin-top: -30px;
+    padding: 30px 0;
     text-align: center;
   }
   #get {
     font-size: 30px;
+    font-family: BonevoCF-Light-webfont;
+    padding-bottom: 20px;
   }
   #brag {
     font-size: 12px;
@@ -219,6 +228,7 @@
     display: block;
     text-decoration: none;
     text-align: center;
+    font-family: BonevoCF-Light-webfont;
     background-color: #05b491;
     color: white;
     line-height: 50px;
@@ -231,6 +241,9 @@
     margin-top: 20px;
     //padding-right: 50px;
     box-sizing: border-box;
+  }
+  #mac:hover {
+    background-color: #07cda5
   }
 
   #win {
